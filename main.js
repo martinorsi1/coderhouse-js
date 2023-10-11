@@ -1,3 +1,8 @@
+/* 
+Mi proyecto consiste En un catalago de productos de Zapatillas. El cuál ofresco al cliente mediante un alert.
+Luego con el switch brindo las opciones para que seleccione la opción deseada. 
+Uso el bucle while para que en caso de ingresar una opción incorrecta, pida nuevamente al ususario ingresar la correcta.
+*/
 
 alert("Bienvenido a Zapas An! La mejor Tienda online de Zapatillas del Uruguay");
 alert("Te presento nuestro catalogo de Zapas, a tan solo $3000 UYU c/u: 1-Nike, 2-Adidas, 3-Puma");
@@ -37,6 +42,12 @@ const aumenteo = (num1, num2, num3) => {
 }
 */
 
+/* 
+El claculo del aumento del produco lo realice mediante una funcion flecha.
+La cuál suma el precio del producto con el valor del aumento.
+Este ultimo se genera multiplicando el valor del producto, por el porcentaje de aumento.
+*/
+
 const aumenteo = (num1, num2, num3) => precioAumento = num1 + num2 * num3;
 
 let precioZapas = 3000;
@@ -44,6 +55,11 @@ let aumenteo1 = 0.05;
 let aumenteo2 = 0.10;
 let aumenteo3 = 0.15;
 let aumenteo4 = 0.20;
+
+/* 
+Lo siguiente es el metodo de pago, que aplico la misma lógica anteriormente mencionada.
+Un switch dentro de otro para creear un sub menu que contenga el numero de cuotas, y uso while por si ingresa una opción invalida.
+*/
 
 alert("A continuacion elija el Metodo de Pago para realizar la compra");
 
